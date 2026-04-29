@@ -33,6 +33,7 @@ The --ctx-size is important. It tells the size of your maximum context. The larg
 
 6. To make it useful for work, get opencode https://opencode.ai/. Don't bother to use the user interface, which is still in development. Instead, use the command line interface. First download the program and configure it to use your local server. You'll need to create/edit your ~/.config/opencode/opencode.json file with:
 
+```json
 {
   "$schema": "https://opencode.ai/config.json",
   "compaction": {
@@ -60,6 +61,7 @@ The --ctx-size is important. It tells the size of your maximum context. The larg
     }
   }
 }
+```
 
 https://opencode.ai/docs/config/
 
